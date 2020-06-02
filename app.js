@@ -38,10 +38,10 @@ app.post("/", function(req,res){
 
 // add the endpoint from mailchimp and update usX, taking a look
 //from the final api key number
-        const url = "https://us10.api.mailchimp.com/3.0/lists/6738057419";
+        const url = "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         const options = {
          method: "POST",
-         auth: "Silvitcha:1ec06ae28e261739164b34fcf2a0e7e1-us10"
+         auth: "Silvitcha:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
           }
 
         const request = https.request(url, options, function(response){
@@ -74,8 +74,4 @@ app.listen(process.env.PORT || 3000, function(){
 console.log("The server is running on port 3000");
 });
 /*****************************************************************************/
-//from mailchimp
-// api key
-// 1ec06ae28e261739164b34fcf2a0e7e1-us10
-// list Id
-// 6738057419
+
